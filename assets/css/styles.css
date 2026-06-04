@@ -127,9 +127,12 @@ a {
 
 /* ====================== hero common ==================== */
 
+.hero {
+  padding: 42px 0 79px;
+}
+
 .hero .body {
   display: flex;
-  margin-top: 42px;
 }
 
 /* ====================== hero left ==================== */
@@ -146,7 +149,7 @@ a {
 
 .hero .title {
   margin-top: 18px;
-  width: 458px;
+  max-width: 458px;
   color: #0d1111;
   font-size: 6.2rem;
   font-weight: 700;
@@ -154,7 +157,7 @@ a {
 }
 
 .hero .desc {
-  width: 374px;
+  max-width: 374px;
   margin-top: 46px;
   color: #9da6a5;
   font-size: 1.8rem;
@@ -196,11 +199,14 @@ a {
 .hero .media-block {
   width: 50%;
   position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero .media-block .image {
-  width: 576px;
-  height: 631px;
+  max-width: 576px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -349,10 +355,42 @@ a {
   justify-content: center;
 
   color: #fff;
+
   font-size: 1rem;
   font-weight: 500;
 
   width: 33px;
   height: 33px;
   background-color: #1ebfc1;
+}
+
+/* ====================== Feature ==================== */
+
+.feature {
+  margin-top: 70px;
+}
+
+.feature .top-title {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.feature .heading-lv2 {
+  margin-top: 18px;
+  max-width: 577px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+}
+
+.feature .desc {
+  margin-top: 18px;
+  max-width: 590px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
