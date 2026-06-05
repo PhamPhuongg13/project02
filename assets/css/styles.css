@@ -367,7 +367,14 @@ a {
 /* ====================== Feature ==================== */
 
 .feature {
-  margin-top: 70px;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature .body {
+  max-width: 1024px;
 }
 
 .feature .top-title {
@@ -393,4 +400,32 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.feature .feature-list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature .item .icon {
+  width: 102px;
+  height: 106px;
+}
+
+.feature .item .item-title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.feature .item .item-desc {
+  margin-top: 16px;
+  max-width: 224px;
+
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 1.6875;
 }
