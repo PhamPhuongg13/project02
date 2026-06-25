@@ -766,3 +766,56 @@ a {
 .admit .admit-right .btn {
   display: inline-block;
 }
+
+/* ====================== footer ==================== */
+
+.footer .row-top {
+  padding: 131px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .list li {
+  margin-top: 18px;
+}
+
+.footer .list li:first-child {
+  margin-top: 26px;
+}
+
+.footer .list li a {
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer .list-item5 a {
+  display: flex;
+  align-items: center;
+}
+
+.footer .list-item5 .social-icon {
+  margin-right: 9px;
+}
+
+.footer .cpr-block {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .cpr-block .copyright {
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 50px;
+}
