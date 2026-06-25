@@ -734,3 +734,35 @@ a {
   left: 1060px;
   top: 374px;
 }
+
+/* ====================== Admit ==================== */
+
+.admit {
+  margin-top: 130px;
+  padding: 76px 135px 88px;
+  background: #def6f5;
+}
+
+.admit .body {
+  display: flex;
+  align-items: center;
+}
+.admit .admit-left .heading-lv2 {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.admit .admit-left .desc {
+  margin-right: 410px;
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.admit .admit-right .btn {
+  display: inline-block;
+}
